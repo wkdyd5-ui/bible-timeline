@@ -52,4 +52,4 @@ export async function run(){
  }
  if(process.env.GITHUB_OUTPUT)await appendFile(process.env.GITHUB_OUTPUT,`changed=${changed}\n`);return changed;
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)run().catch(()=>{console.error('::error::Notion sync failed. Check token, database access and required property types. Previous snapshot is unchanged.');process.exitCode=1});
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)run().catch(error=>{const status=/HTTP (\d{3})/.exec(error.message)?.[1];const detail=status?'Notion API HTTP '+status:/^(Required property missing or type changed: |Missing or unknown category|Invalid year values|Invalid event name|Incomplete Notion response|Invalid pagination cursor|Maximum 2000 events exceeded)/.test(error.message)?error.message:'Network or response error';console.error('::error::'+detail+'. Previous snapshot is unchanged.');process.exitCode=1});
