@@ -1,0 +1,817 @@
+{
+  "version": 1,
+  "title": "이스라엘 왕조 연대표",
+  "min": -1030,
+  "max": -400,
+  "scale": 5,
+  "tick": 50,
+  "groups": [
+    {
+      "id": "events",
+      "name": "주요 사건",
+      "color": "#AC701F"
+    },
+    {
+      "id": "judah",
+      "name": "통일왕국 · 남유다",
+      "color": "#2783DE"
+    },
+    {
+      "id": "israel",
+      "name": "북이스라엘",
+      "color": "#AF5575"
+    },
+    {
+      "id": "prophets",
+      "name": "선지자",
+      "color": "#30856C"
+    },
+    {
+      "id": "foreign",
+      "name": "주변 국가",
+      "color": "#8A6BBB"
+    }
+  ],
+  "events": [
+    {
+      "id": "7f7d3f6b93bf903571-0",
+      "group": "events",
+      "label": "*공사중단",
+      "start": -535,
+      "end": -520,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4668d30e2ce668f357-0",
+      "group": "events",
+      "label": "1차 포로귀환",
+      "start": -537,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "b7c0b9c1e60cd50d67-0",
+      "group": "events",
+      "label": "2차 포로귀환",
+      "start": -458,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "250207fabb62f62e40-0",
+      "group": "events",
+      "label": "3차 포로귀환",
+      "start": -444,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "c3e34dbbcc136c8a21-0",
+      "group": "events",
+      "label": "남유다 멸망",
+      "start": -586,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "b795cb486dd58211b1-0",
+      "group": "events",
+      "label": "느헤미야 바벨론 방문",
+      "start": -432,
+      "end": -430,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "aa6a5056fdd8aa2dc7-0",
+      "group": "events",
+      "label": "느헤미야(성벽재건)",
+      "start": null,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "f5248dcba69dc23fa1-0",
+      "group": "events",
+      "label": "바벨론 1차 침공",
+      "start": -605,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "0dfd90df4fafb400b4-0",
+      "group": "events",
+      "label": "바벨론 2차 침공",
+      "start": -597,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "3c7d702192719388ec-0",
+      "group": "events",
+      "label": "바벨론 3차 침공",
+      "start": -586,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "ceafb26503e477d97a-0",
+      "group": "events",
+      "label": "바벨론 멸망",
+      "start": -539,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "69d6f252486098a77a-0",
+      "group": "events",
+      "label": "부림절",
+      "start": -473,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "8721f71cf7b7b71430-0",
+      "group": "events",
+      "label": "북이스라엘 멸망",
+      "start": -722,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "13ce1a2dae80cb5eb3-0",
+      "group": "events",
+      "label": "성전 재건",
+      "start": -536,
+      "end": -516,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "cc640e43c5e50babdd-0",
+      "group": "events",
+      "label": "앗수르 멸망",
+      "start": -612,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "974e05d9df1d9fad51-0",
+      "group": "events",
+      "label": "에스더 왕후 책봉",
+      "start": -483,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "fa91dd33f0f64b0134-0",
+      "group": "events",
+      "label": "에스라(율법)",
+      "start": null,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "80aefcd50d4358e3cf-0",
+      "group": "events",
+      "label": "포로기 70년",
+      "start": -605,
+      "end": -537,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "dcf59760e269d69f3e-0",
+      "group": "foreign",
+      "label": "고레스 2세(키루스 대왕)",
+      "start": -550,
+      "end": -530,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "5d1694f6386738bd61-0",
+      "group": "foreign",
+      "label": "나보폴라살",
+      "start": -612,
+      "end": -605,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "d4b87a6da355352ba1-0",
+      "group": "foreign",
+      "label": "느부갓네살",
+      "start": -605,
+      "end": -562,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "bee8aa9d7497c6cf67-0",
+      "group": "foreign",
+      "label": "다리오 1세",
+      "start": -521,
+      "end": -486,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "3a74a2abb4c421b7e0-0",
+      "group": "foreign",
+      "label": "사르곤2세",
+      "start": -722,
+      "end": -705,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "76a3ee6045ad8ae060-0",
+      "group": "foreign",
+      "label": "산헤립",
+      "start": -705,
+      "end": -681,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "79156510628f72a3e7-0",
+      "group": "foreign",
+      "label": "아닥사스다",
+      "start": -464,
+      "end": -423,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "68af3e24f526f92de2-0",
+      "group": "foreign",
+      "label": "아하수에로",
+      "start": -486,
+      "end": -464,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "afa9c92fa52336d656-0",
+      "group": "foreign",
+      "label": "캄비세스",
+      "start": -530,
+      "end": -521,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "d3133311c016b0138f-0",
+      "group": "israel",
+      "label": "나답",
+      "start": -910,
+      "end": -909,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "f272286f2eebb23a4f-0",
+      "group": "israel",
+      "label": "므나헴",
+      "start": -752,
+      "end": -742,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "9cb332044aa64e3e39-0",
+      "group": "israel",
+      "label": "바아사",
+      "start": -909,
+      "end": -886,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "86671362d99d5d1923-0",
+      "group": "israel",
+      "label": "베가",
+      "start": -740,
+      "end": -732,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "b89159c579f3cfb433-0",
+      "group": "israel",
+      "label": "브가히야",
+      "start": -742,
+      "end": -740,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "24f536b5d9c757a51b-0",
+      "group": "israel",
+      "label": "살룸",
+      "start": -752,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "0bf7f8428e11026a14-0",
+      "group": "israel",
+      "label": "스가랴",
+      "start": -753,
+      "end": -752,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "afafd38650c2f74b79-0",
+      "group": "israel",
+      "label": "시므리",
+      "start": -885,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "3042f64e0ba32f325c-0",
+      "group": "israel",
+      "label": "아하시야",
+      "start": -853,
+      "end": -852,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "2d3459712d27e88817-0",
+      "group": "israel",
+      "label": "아합",
+      "start": -874,
+      "end": -853,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "9d629fbc894a2af7a4-0",
+      "group": "israel",
+      "label": "엘라",
+      "start": -886,
+      "end": -885,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "491c06fbf92c3cc2d1-0",
+      "group": "israel",
+      "label": "여로보암2세",
+      "start": -793,
+      "end": -753,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "cd4594695603b0c951-0",
+      "group": "israel",
+      "label": "여호보암",
+      "start": -930,
+      "end": -910,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "bb20639e60ab229287-0",
+      "group": "israel",
+      "label": "여호아스(요아스)",
+      "start": -798,
+      "end": -782,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "62a05c1474a59e72c5-0",
+      "group": "israel",
+      "label": "여호아하스",
+      "start": -814,
+      "end": -798,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "9d06a0ea5f3fb9b204-0",
+      "group": "israel",
+      "label": "예후",
+      "start": -841,
+      "end": -814,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "3dc52d31d14ac81901-0",
+      "group": "israel",
+      "label": "오므리",
+      "start": -885,
+      "end": -874,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "12776a0461242ed70c-0",
+      "group": "israel",
+      "label": "요람(여호람)",
+      "start": -852,
+      "end": -841,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "263258127cddcae963-0",
+      "group": "israel",
+      "label": "호세아",
+      "start": -732,
+      "end": -722,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "6ebd0c8d90c3d990ef-0",
+      "group": "judah",
+      "label": "*아사랴(웃시야)",
+      "start": -791,
+      "end": -739,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4ad4df97a333809753-0",
+      "group": "judah",
+      "label": "*여호사밧",
+      "start": -872,
+      "end": -847,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4e03d523eb10b4f871-0",
+      "group": "judah",
+      "label": "다윗",
+      "start": -1011,
+      "end": -970,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "eb6da9d5d5f1ebb037-0",
+      "group": "judah",
+      "label": "르호보암",
+      "start": -930,
+      "end": -913,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4b33265a3bc94a4400-0",
+      "group": "judah",
+      "label": "므낫세",
+      "start": -697,
+      "end": -642,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "12f55af3ca000d8d34-0",
+      "group": "judah",
+      "label": "솔로몬",
+      "start": -970,
+      "end": -930,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "d0f8ed628541b7f87b-0",
+      "group": "judah",
+      "label": "시드기야",
+      "start": -597,
+      "end": -586,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "de3fa6fa4ac88d3f13-0",
+      "group": "judah",
+      "label": "아달랴",
+      "start": -841,
+      "end": -835,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "bf02abe96646228fbc-0",
+      "group": "judah",
+      "label": "아마샤*",
+      "start": -796,
+      "end": -767,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "59909c4afe472f26b5-0",
+      "group": "judah",
+      "label": "아몬",
+      "start": -642,
+      "end": -640,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4219a1465e8177454d-0",
+      "group": "judah",
+      "label": "아비야(아비얌)",
+      "start": -913,
+      "end": -910,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "f0b4a8567e81a8d2f9-0",
+      "group": "judah",
+      "label": "아사*",
+      "start": -910,
+      "end": -869,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "ae0376234e8bb3e4ff-0",
+      "group": "judah",
+      "label": "아하스",
+      "start": -735,
+      "end": -716,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "197f4aa6237788a0b1-0",
+      "group": "judah",
+      "label": "아하시야",
+      "start": -841,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "6bc3d647c04c4063e3-0",
+      "group": "judah",
+      "label": "여호람(요람)",
+      "start": -853,
+      "end": -841,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "ab0169a12fb7057cb6-0",
+      "group": "judah",
+      "label": "여호아하스 (살룸)",
+      "start": -609,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "554ee1f7de66dda648-0",
+      "group": "judah",
+      "label": "여호야긴 (여고니야)",
+      "start": -598,
+      "end": null,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "a36aaf139ad82be55a-0",
+      "group": "judah",
+      "label": "여호야김 (엘리야김)",
+      "start": -609,
+      "end": -598,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "2f8a57092ccf918972-0",
+      "group": "judah",
+      "label": "요담*",
+      "start": -750,
+      "end": -731,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "4fdbfe3d849454e548-0",
+      "group": "judah",
+      "label": "요시야*",
+      "start": -640,
+      "end": -609,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "c4281d831d7a6b0a5b-0",
+      "group": "judah",
+      "label": "요아스(여호아스)*",
+      "start": -835,
+      "end": -796,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "e70e23f19c8da64aec-0",
+      "group": "judah",
+      "label": "히스기야*",
+      "start": -728,
+      "end": -687,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "dd9aeb8fd699ea64a7-0",
+      "group": "prophets",
+      "label": "나훔",
+      "start": -663,
+      "end": -654,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "65015f5dce53179ed3-0",
+      "group": "prophets",
+      "label": "다니엘",
+      "start": -605,
+      "end": -536,
+      "approx": false,
+      "bold": true
+    },
+    {
+      "id": "39d3671bd3c0f02ffb-0",
+      "group": "prophets",
+      "label": "말라기",
+      "start": -430,
+      "end": null,
+      "approx": true,
+      "bold": false
+    },
+    {
+      "id": "9fa582c832034c8d1f-0",
+      "group": "prophets",
+      "label": "미가",
+      "start": -733,
+      "end": -701,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "7d6eaf26385ad2e05b-0",
+      "group": "prophets",
+      "label": "스가랴",
+      "start": -520,
+      "end": -489,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "32474288c6fd98f941-0",
+      "group": "prophets",
+      "label": "스바냐",
+      "start": -636,
+      "end": -623,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "ed5c303818bd978fd4-0",
+      "group": "prophets",
+      "label": "아모스",
+      "start": -767,
+      "end": -755,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "e49f76c956ec2721c4-0",
+      "group": "prophets",
+      "label": "에스겔",
+      "start": -593,
+      "end": -559,
+      "approx": false,
+      "bold": true
+    },
+    {
+      "id": "2564becc97150fe450-0",
+      "group": "prophets",
+      "label": "엘리사",
+      "start": -852,
+      "end": -796,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "bfa7cd1ca160759ebc-0",
+      "group": "prophets",
+      "label": "엘리야",
+      "start": -876,
+      "end": -852,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "89e67c9a403dfcd43e-0",
+      "group": "prophets",
+      "label": "예레미야",
+      "start": -627,
+      "end": -574,
+      "approx": false,
+      "bold": true
+    },
+    {
+      "id": "9967a589ed8aa32957-0",
+      "group": "prophets",
+      "label": "오바댜",
+      "start": -841,
+      "end": -825,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "f375cb35996d17b22b-0",
+      "group": "prophets",
+      "label": "요나",
+      "start": -784,
+      "end": -752,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "2f5c389e154b75efe8-0",
+      "group": "prophets",
+      "label": "요엘",
+      "start": -825,
+      "end": -809,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "e706683709d2b7ce53-0",
+      "group": "prophets",
+      "label": "이사야",
+      "start": -739,
+      "end": -681,
+      "approx": false,
+      "bold": true
+    },
+    {
+      "id": "480eb2c34e913a4aa2-0",
+      "group": "prophets",
+      "label": "하박국",
+      "start": -623,
+      "end": -609,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "bfe8ce471c7bcba07d-0",
+      "group": "prophets",
+      "label": "학개",
+      "start": -520,
+      "end": -505,
+      "approx": false,
+      "bold": false
+    },
+    {
+      "id": "b460d4dadcde7ab5a3-0",
+      "group": "prophets",
+      "label": "호세아",
+      "start": -755,
+      "end": -714,
+      "approx": false,
+      "bold": false
+    }
+  ],
+  "sourceName": "Notion 연대표 사건",
+  "sourceKind": "notion",
+  "sourceNotes": [],
+  "fingerprint": "ca260a62938cdc1c369eac8d20099e5031a3283555742c1697fc04489772fc0e",
+  "updatedAt": "2026-10-16T09:21:25.664Z",
+  "syncConfigured": false
+}

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="이스라엘 왕조·선지자·주요 사건을 연도 간격에 비례해 표시하는 세로 연대표"><title>이스라엘 왕조 연대표</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><main><header><div><div class="eyebrow">BIBLE TIMELINE</div><h1 id="previewTitle">이스라엘 왕조 연대표</h1><p>위는 과거, 아래는 미래. 사건 사이의 거리는 연도 차이에 비례합니다.</p></div><button id="refresh">최신 데이터 확인</button></header>
+<div class="meta"><span id="updated" role="status" aria-live="polite">데이터를 불러오는 중입니다…</span><span id="statusLine"></span></div>
+<p id="syncStatus" class="notice"></p><p id="warnings" role="status"></p>
+<section class="viewer" aria-label="연대표"><div class="toolbar"><div id="categories" aria-label="표시할 분류"></div><div class="tools"><label>보기 <select id="zoom"><option value="fit">너비 맞춤</option><option value="1">100%</option><option value="1.5">150%</option></select></label><label>1년 높이 <select id="scale"><option value="3">3px</option><option value="5" selected>5px</option><option value="8">8px</option><option value="12">12px</option></select></label><button id="exportSvg">SVG 저장</button><button id="exportPng">PNG 저장</button></div></div>
+<div id="rangeLabel" class="range"></div><div id="viewport" tabindex="0" aria-label="연대표 그림, 확대 시 가로와 세로로 스크롤할 수 있습니다"><div id="paper"></div></div>
+<p class="legend">● 한 시점　┃ 기간　┄ 불확실한 연도　·　연도 위치는 고정되며 겹치는 설명만 이동합니다.</p></section>
+<details><summary>사건 목록 · 연도 미정 항목</summary><div class="tablewrap"><table><thead><tr><th scope="col">이름·사건</th><th scope="col">분류</th><th scope="col">시작 연도</th><th scope="col">종료 연도</th></tr></thead><tbody id="rows"></tbody></table></div></details>
+<footer>원본 SVG의 수치를 옮긴 연대표이며 역사적 연대를 재검증하지 않았습니다. ‘포로기 70년’은 원본 이름을 보존했으며, 입력된 -605~ -537의 차이는 68년입니다.<br>Notion 변경 여부는 약 10분마다 확인합니다. 예약 작업 사정으로 반영이 지연될 수 있습니다. 이 화면은 1분마다 게시된 데이터를 확인합니다.</footer>
+<noscript>연대표 그림에는 JavaScript가 필요합니다. <a href="data/timeline.json">공개 데이터 보기</a></noscript>
+</main></body></html>
